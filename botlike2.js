@@ -22,7 +22,7 @@ const User = [
     mask:'*',
     validate: function(value){
       if(!value) return 'Can\'t Empty';
-      return true;
+      return false;
   }
 }
 ]
